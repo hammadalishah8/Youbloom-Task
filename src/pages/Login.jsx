@@ -8,6 +8,8 @@ const Login = () => {
   const [phone, setPhone] = useState("");
   const [error, setError] = useState("");
 
+
+
   const handleLogin = (e) => {
     e.preventDefault();
     if (!phone.startsWith("+254")) {
